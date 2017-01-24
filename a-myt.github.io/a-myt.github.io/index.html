@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head
+  <meta charset="utf-8">
+  <title>Amy Tan ~ Mathematical Economics Student and Graphic Designer </title>
+  <meta name="description" content="Amy Tan is a Mathematical Economics Student at Waterloo University, passionate about web design and graphic designing. Looking for internships, excited to learn!">
+  <meta name="keywords" content="Amy,Tan,Uwaterloo,Waterloo,Student,Intern,Internship,Design,Web,Technology,Math,Mathematics,Economics,Co-op">
+  <meta name="author" content="Amy Tan">
+  <meta name="veiwport" content="width=device-width, innitial-scale=1, shrink-to-fit=no">
+  <title> Amy Tan </title>
+     <link rel="stylesheet" href="myStyle.css">
+     <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+
+  <style>
+body {margin:0;}
+
+  li a, .dropbtn {
+      display: inline-block;
+      color: white;
+
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover, .dropdown:hover .dropbtn {
+      background-color: #C0C0C0;
+      opacity: .3;
+      color: black;
+  }
+
+  li.dropdown {
+    position: fixed;
+      display: inline-block;
+  }
+
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      opacity: 0.75;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+  }
+
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+     background-color: #FADFED;
+
+  }
+
+  li {
+      float: left;
+  }
+
+</style>
+</head>
+<body data-spy="scroll" data-target="#navigationbar">
+    <ul>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Home</a>
+        <div class="dropdown-content">
+          <a class="scroll" href="#home"> Me </a>
+          <a class="scroll" href="#experience">My Experience</a>
+          <a class="scroll" href="#">My Interest</a>
+          <a href="mailto:a33tan@uwaterloo.ca">Email Me</a>
+        </div>
+<li> <a href="#">Home</a></span></li>
+  <li><a href="file:///Users/Amy/Desktop/a-myt.github.io/Amy_Tan%20Resume.pdf">Resume</a></span></li>
+    <li><a href="#">Projects</a></span></li>
+      </li>
+    </ul>
+    <div class="row" id="home">
+    			<div class="Homepage">
+            <div class="HomepageHeading">
+    				<p><strong><font size="25">Amy Tan</font></strong>
+              <br>
+            <font size="5">Mathematical Economics Student at the University of Waterloo</font>
+  </p>
+    			</div>
+        </div>
+          <div class="Homepage2">
+          <p><a href="mailto:a33tan@uwaterloo.ca"><font size="5">a33tan@uwaterloo.ca</font></a></p>
+            <p><a href="https://ca.linkedin.com/in/tanamy"> <font size="5">linkedin.com/in/tanamy</font></a></p>
+            <a href="file:///Users/Amy/Desktop/a-myt.github.io/Amy_Tan%20Resume.pdf"><font size="5">Resume</font></a>
+            <br>
+            <br>
+</div>
+</div>
+
+      <div class="row" id="experience">
+        <div class="Experience">
+        <p> my experience in a nutshell</p>
+      </div>
+</div>
+
+
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+        <script language="javascript" type="text/javascript">
+      		document.getScroll= function(){
+      		 if(window.pageYOffset!= undefined){
+      		  return [pageXOffset, pageYOffset];
+      		 }
+      		 else{
+      		  var sx, sy, d= document, r= d.documentElement, b= d.body;
+      		  sx= r.scrollLeft || b.scrollLeft || 0;
+      		  sy= r.scrollTop || b.scrollTop || 0;
+      		  return [sx, sy];
+      		 }
+      		}
+      		document.getScrollY= function() {
+      			return document.getScroll()[1];
+      		}
+      currentlyScrolling = false;
+      $(".scroll").on("click touchstart" , function (event) {
+      				event.preventDefault();
+      				//calculate destination place
+      				var dest = 0;
+      				if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
+      						dest = $(document).height() - $(window).height();
+      				} else {
+      						dest = $(this.hash).offset().top;
+      				}
+      				if (document.getScrollY() == dest || currentlyScrolling) {
+      					console.log("no");
+      				} else {
+      					console.log("yes");
+      					console.log(String(document.getScrollY()) + " " + String(dest));
+      					currentlyScrolling=true;
+      					//go to destination
+      					$('html,body').animate({
+      							scrollTop: dest
+      					}, 500, 'swing', function() {
+      						currentlyScrolling = false;
+      						console.log("done");
+      					});
+      				}
+      });
+      $(window).on('activate.bs.scrollspy', function (e) {
+          history.replaceState({}, "", $("a[href^='#']", e.target).attr("href"));
+      		hashTagActive =  $("a[href^='#']", e.target).attr("href");
+      });
+      		</script>
+
+</body>
+
+
+</html>
