@@ -1,0 +1,75 @@
+body {  background-image: url("4a3861142f6f68689380d117fd57034a.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+/* style for homepage */
+.Homepage {
+  margin-top: 5px;
+  background-image: url("scalable_vector_graphics_bug_rose_window_2-999px.png");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 500px 500px;
+}
+.HomepageHeading {
+  margin: auto;
+  margin-top: 6px;
+  padding-top: 8px;
+  font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: rgba(0,0,0,0.7);
+  text-shadow: 3px 3px 3px #fff;
+ text-align: center;
+ position: static;
+}
+.Homepage2{
+  margin: auto;
+	margin-bottom: 10px;
+  margin-top: 0px;
+padding-top: 0px;
+max-width: 780px;
+	font-size: 18;
+	font-weight: 400;
+	text-align: center;
+  position: sticky;
+}
+
+.Experience{
+background-color: white;
+background-size: 100%;
+	margin-bottom: 10px;
+  margin-top: 0px;
+padding-top: 0px;
+max-width: 100%;
+	font-size: 18;
+	font-weight: 400;
+	text-align: left;
+  position: sticky;
+}
+
+
+  /*
+	margin: auto;
+	margin-bottom: 10px;
+padding-top: 30px;
+max-width: 780px;
+
+  font-weight: 100;
+  line-height: 1.2;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: rgba(0,0,0,0.7);
+  text-shadow: 3px 3px 3px #fff;
+ text-align: center;
+}
+
+
+/* galaxy
+body{background-color:rgb(0,0,0);background-image:url(http://www.zingerbugimages.com/backgrounds/colorful_starry_sky_glitter_background_seamless.gif);background-position:top left;background-repeat:repeat;background-attachment:fixed;}</Style>
+gold stars
+body{background-color:rgb(0,0,0);background-image:url(http://www.zingerbugimages.com/backgrounds/golden_stars.gif);background-position:top left;background-repeat:repeat;background-attachment:fixed;}
+orange galaxy
+body{background-color:rgb(0,0,0);background-image:url(http://www.zingerbugimages.com/backgrounds/orange_starry_sky_glitter_background_seamless.gif);background-position:top left;background-repeat:repeat;background-attachment:fixed;}*/
+/*body{background-color:rgb(0,0,0);background-image:url(http://www.zingerbugimages.com/backgrounds/stars_background.gif);background-position:top left;background-repeat:repeat;background-attachment:fixed;}
