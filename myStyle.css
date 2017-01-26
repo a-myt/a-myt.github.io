@@ -11,13 +11,14 @@ background-attachment: fixed;
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-size: 500px 500px;
+ opacity: 0.6;
 }
 .HomepageHeading {
   margin: auto;
-  margin-top: 6px;
-  padding-top: 8px;
-  font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
-  color: rgba(0,0,0,0.7);
+  margin-top: 0px;
+  padding-top: 24px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
   text-shadow: 3px 3px 3px #fff;
  text-align: center;
  position: static;
