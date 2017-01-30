@@ -7,22 +7,27 @@
   <meta name="description" content="Amy Tan is a Mathematical Economics Student at Waterloo University, passionate about web design and graphic designing. Looking for internships, excited to learn!">
   <meta name="keywords" content="Amy,Tan,Uwaterloo,Waterloo,Student,Intern,Internship,Design,Web,Technology,Math,Mathematics,Economics,Co-op">
   <meta name="author" content="Amy Tan">
+
 	<link rel="stylesheet" href="bootstrap.min.css">
   <link rel="image_src" href="2015-08-28 12.12.30 HDR.jpg"/>
 <link rel="stylesheet" href="css/ie10-viewport-bug-workaround.css">
   <meta name="veiwport" content="width=device-width, innitial-scale=1, shrink-to-fit=no">
   <title> Amy Tan </title>
-     <link rel="stylesheet" href="myStyle.css">
-     <link rel="stylesheet" href="devicons.min.css">
+
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="myStyle.css">
+  <!-- devicons -->
+
   <style>
 
   li a, .dropbtn {
       display: inline-block;
       color: white;
+font-size: 18px;
 
-
-      text-align: center;
-      padding: 17px 20px;
+      text-align: left;
+      padding: 14px 0px;
       text-decoration: none;
   }
 
@@ -58,48 +63,139 @@
 
   .dropdown:hover .dropdown-content {
       display: block;
-}
+  }
 
-</style>
+  </style>
+
 </head>
 <body data-spy="scroll" data-target="#navigationbar">
-    <ul>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Home</a>
-        <div class="dropdown-content">
-          <a class="scroll" href="#home"> Me </a>
-          <a class="scroll" href="#experience">My Experience</a>
-          <a class="scroll" href="#">My Interest</a>
-          <a href="mailto:a33tan@uwaterloo.ca">Email Me</a>
+  <!--Navbar-->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid" id="navfluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigationbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <ul>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Home</a>
+          <div class="dropdown-content">
+            <a class="scroll" href="#me"> Me </a>
+            <a class="scroll" href="#experience">My Experience</a>
+            <a class="scroll" href="#">My Interest</a>
+            <a href="mailto:a33tan@uwaterloo.ca">Email Me</a>
+          </div>
+        </li>
+      </ul>
+      <a class="navbar-brand">
+        <div class="row">
+          <div class="col-xs-12">
+          </div>
         </div>
-      </li>
-    </ul>
-    <div class="row" id="home">
-    			<div class="Homepage">
-            <div class="HomepageHeading"
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navigationbar">
 
-    				<p><strong>Amy Tan</strong>
-              <br>
-            <font size="5">Mathematical Economics Student at the University of Waterloo</font></p>
-</div>
+      <ul class="nav navbar-nav navbar-right" role="tablist">
+        <li><a href="" >Graphic Design</a></li>
+        <li><a href="pdfs/resume.pdf" target="_blank">Resume</a></li>
+        <li ><a href="whenistudy.html">Projects <i class="fa fa-gamepad"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-        </div>
-          <div class="Homepage2">
-          <p><a href="mailto:a33tan@uwaterloo.ca"><font size="5">a33tan@uwaterloo.ca</font></a></p>
-            <p><a href="https://ca.linkedin.com/in/tanamy"> <font size="5">linkedin.com/in/tanamy</font></a></p>
-            <a href="./Amy_Tan%20Resume.pdf"><font size="5">Resume</font></a>
-            <br>
-            <br>
-</div>
-</div>
 
-      <div class="row" id="experience">
-        <div class="Experience">
-        <p> my experience in a nutshell</p>
+  <div class="jumbotron">
+    <br></br>
+    <br></br>
+<h1>Amy Tan</h1>
+        <div>
+          <ul style="list-style-type:none;padding:0; margin:0;">
+                <li class="li-transparent">
+                  <a href="./Amy_Tan%20Resume.pdf" target="_blank" class="btn btn-transparent">
+                    Resume
+                    <span class="fa fa-file-pdf-o"></span>
+                  </a>
+                </li>
+                <li class="li-transparent">
+                  <a href="https://ca.linkedin.com/in/tanamy" target="_blank" class="btn btn-transparent">
+                    Linkedin
+                    <i class="fa fa-linkedin-square"></i>
+                  </a>
+                </li>
+                <li class="li-transparent">
+                    <a href="mailto:a33tan@uwaterloo.ca" target="_blank" class="btn btn-transparent" target="_blank">
+                      Email
+                      <i class="fa fa-envelope-o"></i>
+                    </a>
+                </li>
+              </ul>
+            </div>
+    <br></br>
+  </div>
+
+
+  <div class ="row" id="me">
+<div class ="container">
+  <div class="col-sm-4 col-xs-18">
+  <div class="row">
+    <img src="f68b0480335f4f7f5ca00d1b9cd0bf56.png" width="100%"></img>
+  </div>
+  </div>
+  <div class="col-sm-8 col-xs-20">
+    <div class="row container-fluid">
+    <h2>Me</h>
+    </div>
+    <div class="row container-fluid">
+    <p>My name is Amy Tan. This is my website where I talk about my past experience, my interests and the different projects I've put together. I am currently a Mathematical Economics Student at the University of Waterloo with a strong interest in graphic design. I am always looking to learn new programs and skills to improve my work and I love learning new things. </p>
+  </div>
+</div>
+</div>
+<br>
+
+<div class="row" id="experience" style="margin-left: 5px">
+  <div class ="container">
+<div class="col-sm-8 col-xs-20">
+  <div class="row container-fluid">
+      <h2>My Past Experience<h>
       </div>
+      <div class="row container-fluid">
+        <h3> Food Services at the University of Waterloo</h>
+          <h4> Waterloo, Ontario </h>
+          </div>
+          <div class="row container-fluid">
+              <p> Worked in a variety </p>
+            </div>
+            <div class="row container-fluid">
+              <h3> Food Services at the University of Waterloo</h>
+                <h4> Waterloo, Ontario </h>
+                </div>
+                <div class="row container-fluid">
+                    <p> Worked in a variety </p>
+                  </div>
+                  <div class="row container-fluid">
+                    <h3> Food Services at the University of Waterloo</h>
+                      <h4> Waterloo, Ontario </h>
+                      </div>
+                      <div class="row container-fluid">
+                          <p> Worked in a variety </p>
+                        </div>
+                        <div class="row container-fluid">
+                          <h3> Food Services at the University of Waterloo</h>
+                            <h4> Waterloo, Ontario </h>
+                            </div>
+                            <div class="row container-fluid">
+                                <p> Worked in a variety </p>
+                              </div>
 </div>
-<div class="row" id="">
 </div>
+</div>
+
+
 <script src="js/ie10-viewport-bug-workaround.js"></script>
         <script language="javascript" type="text/javascript">
       		document.getScroll= function(){
