@@ -1,18 +1,23 @@
 
 /* style for homepage */
 .jumbotron {
-  color: grey;
-  font-family: 'Comic sans', serif;
-  text-align: center;
-
-  background-image: url("kuo17V.jpg");
+  background-image: url("rendering-graphics-in-resolution-222734.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;}
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+h1{
 
+  font-family: 'Comic sans', serif;
+  font-size: 60px;
+
+
+}
 .navbar{
 font-family: 'Comic sans', serif;
-  background-color: pink;
+  background-color: #72DAEA;
 
 color: white;
   font-size: 20px;
